@@ -1,1 +1,1 @@
-my-neovim-config
+my neovim and tmux config
