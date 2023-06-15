@@ -29,14 +29,14 @@ parser_config.zimbu = {
 	filetype = "zu", -- if filetype does not match the parser name
 }
 
-local ft_to_parser = require("nvim-treesitter.parsers").filetype_to_parsername
-ft_to_parser.someft = "python" -- the someft filetype will use the python parser and queries.
-ft_to_parser.someft = "json"
-ft_to_parser.someft = "vim"
-ft_to_parser.someft = "help"
-ft_to_parser.someft = "dockerfile"
-ft_to_parser.someft = "html"
-ft_to_parser.someft = "css"
-ft_to_parser.someft = "graphql"
-ft_to_parser.someft = "gitignore"
-ft_to_parser.someft = "svelte"
+-- local ft_to_parser = require("nvim-treesitter.parsers").filetype_to_parsername
+-- ft_to_parser.someft = "python" -- the someft filetype will use the python parser and queries.
+-- ft_to_parser.someft = "json"
+-- ft_to_parser.someft = "vim"
+-- ft_to_parser.someft = "help"
+-- ft_to_parser.someft = "dockerfile"
+-- ft_to_parser.someft = "html"
+-- ft_to_parser.someft = "css"
+-- ft_to_parser.someft = "graphql"
+-- ft_to_parser.someft = "gitignore"
+-- ft_to_parser.someft = "svelte"
