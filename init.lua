@@ -40,3 +40,14 @@ parser_config.zimbu = {
 -- ft_to_parser.someft = "graphql"
 -- ft_to_parser.someft = "gitignore"
 -- ft_to_parser.someft = "svelte"
+
+vim.treesitter.language.register("python", "someft") -- the someft filetype will use the python parser and queries.
+vim.treesitter.language.register("json", "someft")
+vim.treesitter.language.register("vim", "someft")
+vim.treesitter.language.register("help", "someft")
+vim.treesitter.language.register("dockerfile", "someft")
+vim.treesitter.language.register("html", "someft")
+vim.treesitter.language.register("css", "someft")
+vim.treesitter.language.register("graphql", "someft")
+vim.treesitter.language.register("gitignore", "someft")
+vim.treesitter.language.register("svelte", "someft")
